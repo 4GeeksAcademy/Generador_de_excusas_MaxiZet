@@ -14,9 +14,15 @@ window.onload = function() {
     "Cristiano Ronaldo",
     "Lizzy Tagliani"
   ];
-  let action = ["se comio", "incendio", "aniquilo", "orino", "vomito"];
+  let action = [
+    "se comio",
+    "incendio",
+    "aniquilo",
+    "enterro en mi patio",
+    "vomito"
+  ];
   let what = [
-    "my computadora",
+    "mi computadora",
     "mi casa",
     "mi perro",
     "mi integridad",
