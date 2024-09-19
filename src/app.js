@@ -32,13 +32,14 @@ window.onload = function() {
     "a la salida del estadio",
     "durante la cena",
     "cuando estaba estudiando",
-    "a las 2 de la mañana",
+    "a las 2 am",
     "el 3 de otoño"
   ];
 
   function getRandom(array) {
-    let randomNumber = Math.floor(Math.random() * array.length);
-    return array[randomNumber];
+    let randomNumber = Math.random() * array.length
+    let randomInt = Math.floor(randomNumber);
+    return array[randomInt];
   }
 
   let excusa = `
